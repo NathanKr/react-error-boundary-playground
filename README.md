@@ -1,5 +1,5 @@
 <h2>Motivation</h2>
-Crashing component will cause an app to crash. But crushing components protected by Error Boundaries will not. Error Boundaries work like try and catch but for components 
+Crashing component will cause an app to crash . Crushing in production will result in white screen  - not very informative in terms of UX ..... .However, crushing components protected by Error Boundaries will not crash the app and you can provide fallback UI. Error Boundaries work like try and catch but for components 
 
 <h2>What is an Error Boundary</h2>
 Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed. 
