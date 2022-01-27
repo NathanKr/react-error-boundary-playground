@@ -15,9 +15,6 @@ Error boundaries do not catch errors for:
 </ul>
 
 
-<h2>Problem component</h2>
-This component access a props property. However, missing props result in an exception.In this case React will show white screen in production. White screen is not very informative for your client ....
-
 <h2>Become an ErrorBoundary component</h2>
 A component can become an Error Boundary if it fulfill the following
 <ul>
@@ -34,3 +31,6 @@ Here we use ErrorBoundary over App but you can use any number of ErrorBoundary c
 <li>npm run build  --> build production version</li>
 <li>npm run preview --> run production version</li>
 </ol>
+
+<h2>Problem component</h2>
+This component is used to illustrate the problem, it access a props property. However, missing props result in an exception.In this case React will show white screen in production. White screen is not very informative for your client ....
